@@ -1,0 +1,7 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "python.analysis.extraPaths": [
+        "c:/Users/Student/Desktop/autism_assist_app/backend_python",
+        "c:/Users/Student/Desktop/autism_assist_app/backend_python/src"
+    ]
+}

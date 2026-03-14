@@ -1,0 +1,24 @@
+# Exclude venv and Python cache artifacts
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Exclude environment secrets
+.env
+*.env
+
+# Exclude test scripts and dev-only files
+tests/
+test_*.py
+*.md
+
+# Exclude trained model - Railway has ephemeral filesystem.
+# The model can be retrained via POST /api/v1/train-model after deploy.
+src/core/model.pkl
+
+# Exclude git files
+.git
+.gitignore
